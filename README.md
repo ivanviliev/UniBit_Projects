@@ -1,4 +1,4 @@
-# UniBit_Projects
-Here are the projects that are solutions on tasks from university.
+UniBit_Projects
+Here are the projects, that are the solutions on my tasks from university.
 
 
