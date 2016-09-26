@@ -1,4 +1,5 @@
-UniBit_Projects
-Here are the projects, that are the solutions on my tasks from university.
+UniBit_Projects.
+In this folder I'm put some projects. 
+They are the solutions on my tasks from university.
 
 
