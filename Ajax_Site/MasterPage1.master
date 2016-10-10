@@ -1,0 +1,198 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage1.master.cs" Inherits="MasterPage" %>
+
+<%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="ajaxToolkit" %>
+
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    
+    <link href="StyleSheet.css" rel="stylesheet" />
+    <style type="text/css">
+        .auto-style2 {
+            width: 206px;
+            height: 53px;
+        }
+
+        .auto-style4 {
+            width: 210px;
+            height: 80px;
+        }
+
+        .auto-style5 {
+            width: 1054px;
+            height: 132px;
+        }
+
+        .auto-style6 {
+            width: 253px;
+        }
+
+        .auto-style7 {
+            height: 127px;
+        }
+
+        .auto-style8 {
+            height: 132px;
+            background-color: #FAF3D1;
+        }
+
+        .auto-style9 {
+            height: 31px;
+        }
+        .auto-style10 {
+            width: 190px;
+        }
+    </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <table>
+            <tr>
+                <td style="float: left; width: 160px; height: 600px">&nbsp;</td>
+                <td>
+                    <table style="width: 100%; height: 100%;">
+                        <tr>
+                            <td>
+                                <table style="width: 100%;">
+                                    <tr>
+                                        <td class="auto-style4">
+                                            <img alt="" class="auto-style2" src="Pictures/logo.gif" />
+                                        </td>
+                                        <td rowspan="2"></td>
+                                    </tr>
+                                    <tr>
+                                        <td style="color: #FFFFFF">
+                                            <label>ДА ПОГОВОРИМ ЗА КОЛИ</label>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </td>
+
+                        </tr>
+                        <tr>
+                            <td colspan="2">
+
+                                <asp:Menu ID="MenuNavigationH" runat="server" Orientation="Horizontal">
+                                    <StaticMenuStyle CssClass="Menu1" />
+                                    <StaticMenuItemStyle CssClass="Item" />
+                                    <StaticHoverStyle CssClass="hoverstyle" />
+
+                                    <Items>
+                                        <asp:MenuItem ImageUrl="~/Pictures/home.gif" NavigateUrl="~/Default.aspx" ></asp:MenuItem>
+
+                                        <asp:MenuItem Text="АВТОНОВИНИ И ИЗЛОЖЕНИЯ" Value="Автоновини и изложения" NavigateUrl="~/article/Default.aspx"></asp:MenuItem>
+
+                                        <asp:MenuItem Text="РЕВЮТА И ТЕСТОВЕ" Value="Ревюта и тестове" NavigateUrl="~/reviews/Default.aspx"></asp:MenuItem>
+                                        <asp:MenuItem Text="КОНЦЕПЦИИ" Value="КОНЦЕПЦИИ" NavigateUrl="~/concepts/Default.aspx"></asp:MenuItem>
+                                        <asp:MenuItem Text="ТУНИНГ" Value="ТУНИНГ" NavigateUrl="~/tuning/Default.aspx"></asp:MenuItem>
+                                        <asp:MenuItem Text="МОТОР СПОРТ" Value="МОТОР СПОРТ" NavigateUrl="~/sport/Default.aspx"></asp:MenuItem>
+                                        <asp:MenuItem Text="10-ТЕ НАЙ" Value="10-ТЕ НАЙ"></asp:MenuItem>
+                                        <asp:MenuItem Text="СНИМКИ" Value="СНИМКИ"></asp:MenuItem>
+                                        <asp:MenuItem Text="ВИДЕО" Value="ВИДЕО"></asp:MenuItem>
+                                    </Items>
+
+                                </asp:Menu>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="auto-style7">
+                                <table>
+                                    <tr>
+                                        <td class="auto-style5">
+                                            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                                            </asp:ContentPlaceHolder>
+                                        </td>
+                                        <td class="auto-style8">
+                                            <table>
+                                                <tr>
+                                                    <td>
+<label for="q">Търсене в страницата:</label>
+<input type="text" name="q" id="q" value="" maxlength="100" title="Търсене в ReSource Automobile" />
+<button type="submit" style="background-image: url('/Pictures/search_button.png'); background-repeat: no-repeat;"></button>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="auto-style6">
+                                                        <asp:DropDownList ID="DropDownList1" runat="server" Width="170" />
+                                                        <ajaxToolkit:CascadingDropDown ID="CascadingDropDown1" runat="server" TargetControlID="DropDownList1"
+                                                            Category="Make" PromptText="Изберете марка" LoadingText="[Зареждане на марки...]"
+                                                            ServicePath="WebCar.asmx" ServiceMethod="GetDropDownContents" />
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="auto-style6">
+                                                        <asp:DropDownList ID="DropDownList2" runat="server" Width="170" />
+                                                        <ajaxToolkit:CascadingDropDown ID="CascadingDropDown2" runat="server" TargetControlID="DropDownList2"
+                                                            Category="Model" PromptText="Изберете модел" LoadingText="[Зареждане на модел...]"
+                                                            ServicePath="WebCar.asmx" ServiceMethod="GetDropDownContents" ParentControlID="DropDownList1" />
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <ul>
+                                                            <li class="sbut" style="text-align: right;">Зареди</li>
+                                                        </ul>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <table>
+                                                            <tr>
+                                                                <td class="auto-style10">
+
+                                                                    <asp:Menu ID="vehicles" runat="server" Orientation="Vertical">
+                                                                        <StaticMenuStyle CssClass="ItemRight" />
+                                                                        <Items>
+                                                                            <asp:MenuItem Text="Малки автомобили" Value="Малки автомобили"></asp:MenuItem>
+                                                                            <asp:MenuItem Text="Малки семейни" Value="Малки семейни"></asp:MenuItem>
+                                                                            <asp:MenuItem Text="Големи семейни" Value="Големи семейни"></asp:MenuItem>
+                                                                            <asp:MenuItem Text="Бизнес клас" Value="Бизнес клас"></asp:MenuItem>
+                                                                            <asp:MenuItem Text="Луксозни" Value="Луксозни"></asp:MenuItem>
+                                                                            <asp:MenuItem Text="Спортни автомобили" Value="Спортни автомобили"></asp:MenuItem>
+                                                                            <asp:MenuItem Text="Суперавтомобили" Value="Суперавтомобили"></asp:MenuItem>
+                                                                            <asp:MenuItem Text="Кабриолети" Value="Кабриолети"></asp:MenuItem>
+                                                                            <asp:MenuItem Text="Мултифункционални" Value="Мултифункционални"></asp:MenuItem>
+                                                                            <asp:MenuItem Text="Малък SUV" Value="Малък SUV"></asp:MenuItem>
+                                                                            <asp:MenuItem Text="Голям SUV" Value="Голям SUV"></asp:MenuItem>
+                                                                            <asp:MenuItem Text="Пикап" Value="Пикап"></asp:MenuItem>
+                                                                            <asp:MenuItem Text="Хибридни" Value="Хибридни"></asp:MenuItem>
+                                                                        </Items>
+
+                                                                    </asp:Menu>
+
+                                                                </td>
+                                                            </tr>
+                                                        </table>
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="auto-style9"></td>
+                        </tr>
+                    </table>
+
+
+                    <asp:ScriptManager ID="ScriptManager1" runat="server">
+                    </asp:ScriptManager>
+
+
+                </td>
+                <td style="width: 160px; height: 600px; float: right">&nbsp;</td>
+            </tr>
+        </table>
+    </form>
+
+
+
+
+</body>
+
+</html>

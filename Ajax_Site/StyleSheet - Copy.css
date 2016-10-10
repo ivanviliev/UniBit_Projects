@@ -1,0 +1,115 @@
+﻿/* Main Horizontal Navigation */
+		#Menu1 ul {
+			display: block;
+			clear: both;
+			
+			overflow: hidden;
+
+			width: 963px;
+			height: 32px;
+		}
+		
+			#Menu1 ul li {
+				float: left;
+				overflow: hidden;
+				/* clear: right; */
+				position: relative;
+				margin-left: -11px;
+			}
+			
+				/* Buttons z-index */
+				#Menu1 ul #home, #Menu1 ul .home_select {
+					margin: 0;
+					z-index: 10;
+				}
+								
+				#Menu1 ul .select {
+					z-index: 11;
+				}
+				
+					#Menu1 ul #home span, #Menu1 ul li.home_select span {
+						visibility: hidden;
+					}
+					
+					#Menu1 ul #home em {
+						background: url(../Pictures/home_unselect.gif) no-repeat 7px 0;
+					}
+				
+				#Menu1 ul #nav_8 {
+					z-index: 8;
+				}
+				
+				#Menu1 ul #nav_7 {
+					z-index: 7;
+				}
+				
+				#Menu1 ul #nav_6 {
+					z-index: 6;
+				}
+				
+				#Menu1 ul #nav_5 {
+					z-index: 5;
+				}
+				
+				#Menu1 ul #nav_4 {
+					z-index: 4;
+				}
+				
+				#Menu1 ul #nav_3 {
+					z-index: 3;
+				}
+				
+				#Menu1 ul #nav_2 {
+					z-index: 2;
+				}
+
+				#Menu1 ul #nav_1 {
+					z-index: 1;
+				}
+
+
+			/* Buttons a element */
+			#Menu1 ul li a {
+				display: block;
+				padding: 0 15px 0 0;
+				
+				background: url(../Pictures/header/button-part2.gif) no-repeat right top;
+				color: white;
+				
+				text-transform: uppercase;
+				text-decoration: none;
+			}
+						
+				#Menu1 ul li a strong {
+					line-height: 32px;
+					padding: 9px 8px 10px 8px;
+					
+					background: url(../Pictures/header/button-part1.gif) no-repeat left top;
+					
+					font-weight: bold;
+				}
+			
+			#Menu1 ul li a:hover {
+				background-position: right bottom;
+			}
+			
+				#Menu1 ul li a:hover strong {
+					background-position: left bottom;
+				}
+			
+			
+			/* Selected buttons design */
+			#Menu1 ul li.select a, #Menu1 ul li.home_select a, 
+			#Menu1 ul li.select a:hover, #Menu1 ul li.home_select a:hover {
+				background-position: right center;
+				color: #DB0000;
+			}
+
+				#Menu1 ul li.select a strong, #Menu1 ul li.home_select a strong,
+				#Menu1 ul li.select a:hover strong, #Menu1 ul li.home_select a:hover strong {
+					background-position: left center;
+				}
+				
+			#Menu1 ul li.home_select em {
+				background: url(../Pictures/home.gif) no-repeat 7px 0;
+			}

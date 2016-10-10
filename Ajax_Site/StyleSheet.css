@@ -1,0 +1,67 @@
+﻿/* Main Horizontal Navigation */
+html, body {
+	height: 100.01%;
+    width:963px;
+	font: 11px Verdana, Arial, Helvetica, Tahoma, sans-serif;
+}
+	
+body {
+	background: #0F2C3E url(../images/site_img/bg-body.jpg) repeat-x top;
+}
+.Menu1 {
+    display: block;
+	clear: both;			
+	overflow: hidden;
+	width: 963px;
+	height: 32px;
+     
+}
+.hoverstyle
+{
+    font-weight: bold;
+    font-size:x-small;
+}
+.MenuSelected{
+    color: #DB0000;
+    display: block;
+	padding-top:30px;
+
+                 				
+	background: url(/Pictures/button-part2.gif) no-repeat right top;
+	color: white;
+}
+ 
+.Item {
+    
+    display: block;
+	padding: 9px 8px 1px 8px;
+                 				
+	background: url(/Pictures/button-part2.gif) no-repeat right top;
+	color: white;
+				
+	text-transform: uppercase;
+	text-decoration: none;
+}
+     
+/* Right Navigation */
+	.ItemRight {
+		position: relative;
+		float: right;
+		overflow: hidden;
+		
+		width: 195px;
+		
+		background: #FAF3D1 url(../images/site_img/navigation/notes-end.png) no-repeat right bottom;
+	}
+	
+	#content {
+		float: left;
+		width: 768px;
+		background: #FFFFFF;
+	}
+	
+	#index #content {
+		background: #FFFFFF url(../images/site_img/bg-content.png) repeat-y left;
+	}
+	#index { text-align:center; }
+	

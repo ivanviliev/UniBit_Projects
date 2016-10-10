@@ -1,0 +1,43 @@
+Взема модели коли по номер на марка 10 - опел
+http://www.rs-auto.bg/get_models_list.php?make=10
+
+<asp:Menu ID="MenuNavigationH" runat="server" StaticDisplayLevels="1" Orientation="Horizontal" Font-Size="Small">
+                                    <StaticMenuStyle CssClass="Menu1" />
+                                    <StaticMenuItemStyle CssClass="leval1" />
+                                    <Items>
+                                        <asp:MenuItem Value="Автоновини и изложения" ImageUrl="~/Pictures/home.gif"></asp:MenuItem>
+                                        <asp:MenuItem Text="АВТОНОВИНИ И ИЗЛОЖЕНИЯ" Value="Автоновини и изложения"></asp:MenuItem>
+                                        <asp:MenuItem Text="РЕВЮТА И ТЕСТОВЕ" Value="Ревюта и тестове"></asp:MenuItem>
+                                        <asp:MenuItem Text="КОНЦЕПЦИИ" Value="КОНЦЕПЦИИ"></asp:MenuItem>
+                                        <asp:MenuItem Text="ТУНИНГ" Value="ТУНИНГ"></asp:MenuItem>
+                                        <asp:MenuItem Text="МОТОР СПОРТ" Value="МОТОР СПОРТ"></asp:MenuItem>
+                                        <asp:MenuItem Text="10-ТЕ НАЙ" Value="10-ТЕ НАЙ"></asp:MenuItem>
+                                        <asp:MenuItem Text="СНИМКИ" Value="СНИМКИ"></asp:MenuItem>
+                                        <asp:MenuItem Text="ВИДЕО" Value="ВИДЕО"></asp:MenuItem>
+                                    </Items>
+                                </asp:Menu>
+
+body  color - rgb(0, 0, 238)
+
+http://www.rs-auto.bg/images/site_img/header/logo.gif
+http://www.rs-auto.bg/images/site_img/site_ico.png
+
+
+
+href="http://www.rs-auto.bg/news/article/18536/bmw-x4-дебютира/"><img src="http://i.actualno.com/rs-auto.bg/subdomains/storage/httpdocs/articles/default/2014/3/7/list_image_18536.jpg" alt="BMW X4 дебютира" title="BMW X4 дебютира" /></a>
+
+http://www.rs-auto.bg/news/article/gallery/image/18536/45220/bmw-x4-%D0%B4%D0%B5%D0%B1%D1%8E%D1%82%D0%B8%D1%80%D0%B0/
+http://www.rs-auto.bg/news/article/gallery/thumbnail/image_18536_45220.jpg/2/
+http://www.rs-auto.bg/news/article/gallery/large_image/image_18536_45220.jpg
+http://www.rs-auto.bg/save/0/18536/  Текста
+
+
+href="http://www.rs-auto.bg/news/article/18534/hyundai-показа-бъдещето/"><img src="http://i.actualno.com/rs-auto.bg/subdomains/storage/httpdocs/articles/default/2014/3/5/list_image_18534.jpg" alt="Hyundai показа бъдещето" title="Hyundai показа бъдещето" /></a>
+href="http://www.rs-auto.bg/news/article/18529/4-наши-отбора-в-shell-eco-marathon/"><img src="http://i.actualno.com/rs-auto.bg/subdomains/storage/httpdocs/articles/default/2014/3/4/list_image_18529.jpg" alt="4 наши отбора в Shell Eco-marathon" title="4 наши отбора в Shell Eco-marathon" /></a>
+href="http://www.rs-auto.bg/news/article/18531/ето-го-новия-citroen-c1/"><img src="http://i.actualno.com/rs-auto.bg/subdomains/storage/httpdocs/articles/default/2014/2/26/list_image_18531.jpg" alt="Ето го новия Citroen C1" title="Ето го новия Citroen C1" /></a>
+href="http://www.rs-auto.bg/news/article/18528/чудовищно-добър-мотор/"><img src="http://i.actualno.com/rs-auto.bg/subdomains/storage/httpdocs/articles/default/2014/2/24/list_image_18528.jpg" alt="Чудовищно добър мотор" title="Чудовищно добър мотор" /></a>
+href="http://www.rs-auto.bg/news/article/18526/урок-по-стил-от-citroen-c5-crosstourer/"><img src="http://i.actualno.com/rs-auto.bg/subdomains/storage/httpdocs/articles/default/2014/2/21/list_image_18526.jpg" alt="Урок по стил от Citroen C5 CrossTourer" title="Урок по стил от Citroen C5 CrossTourer" /></a>
+href="http://www.rs-auto.bg/news/article/18521/корейски-изненади-в-женева/"><img src="http://i.actualno.com/rs-auto.bg/subdomains/storage/httpdocs/articles/default/2014/2/20/list_image_18521.jpg" alt="Корейски изненади в Женева" title="Корейски изненади в Женева" /></a>
+href="http://www.rs-auto.bg/news/article/18524/mclaren-показа-нов-звяр/"><img src="http://i.actualno.com/rs-auto.bg/subdomains/storage/httpdocs/articles/default/2014/2/18/list_image_18524.jpg" alt="McLaren показа нов звяр" title="McLaren показа нов звяр" /></a>
+href="http://www.rs-auto.bg/news/article/18520/багажник-отвори-се/"><img src="http://i.actualno.com/rs-auto.bg/subdomains/storage/httpdocs/articles/default/2014/2/17/list_image_18520.jpg" alt="Багажник, отвори се!" title="Багажник, отвори се!" /></a>
+href="http://www.rs-auto.bg/news/article/18518/ето-го-и-новото-турбо-ferrari/"><img src="http://i.actualno.com/rs-auto.bg/subdomains/storage/httpdocs/articles/default/2014/2/13/list_image_18518.jpg" alt="Ето го и новото турбо Ferrari" title="Ето го и новото турбо Ferrari" /></a>
