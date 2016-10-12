@@ -1,0 +1,9 @@
+C:\ivan\semest3\Algoritmi\Kursowa1\AlgTimer\AlgTimer\bin\Debug\AlgTimer.exe.config
+C:\ivan\semest3\Algoritmi\Kursowa1\AlgTimer\AlgTimer\bin\Debug\AlgTimer.exe
+C:\ivan\semest3\Algoritmi\Kursowa1\AlgTimer\AlgTimer\bin\Debug\AlgTimer.pdb
+C:\ivan\semest3\Algoritmi\Kursowa1\AlgTimer\AlgTimer\obj\Debug\AlgTimer.csprojResolveAssemblyReference.cache
+C:\ivan\semest3\Algoritmi\Kursowa1\AlgTimer\AlgTimer\obj\Debug\AlgTimer.Form1.resources
+C:\ivan\semest3\Algoritmi\Kursowa1\AlgTimer\AlgTimer\obj\Debug\AlgTimer.Properties.Resources.resources
+C:\ivan\semest3\Algoritmi\Kursowa1\AlgTimer\AlgTimer\obj\Debug\AlgTimer.csproj.GenerateResource.Cache
+C:\ivan\semest3\Algoritmi\Kursowa1\AlgTimer\AlgTimer\obj\Debug\AlgTimer.exe
+C:\ivan\semest3\Algoritmi\Kursowa1\AlgTimer\AlgTimer\obj\Debug\AlgTimer.pdb
