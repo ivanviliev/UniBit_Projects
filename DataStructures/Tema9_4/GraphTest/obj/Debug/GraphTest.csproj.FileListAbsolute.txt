@@ -1,0 +1,12 @@
+C:\ivan\semest3\Algoritmi\Kursowa2\GraphTest\GraphTest\bin\Debug\GraphTest.exe.config
+C:\ivan\semest3\Algoritmi\Kursowa2\GraphTest\GraphTest\bin\Debug\GraphTest.exe
+C:\ivan\semest3\Algoritmi\Kursowa2\GraphTest\GraphTest\bin\Debug\GraphTest.pdb
+C:\ivan\semest3\Algoritmi\Kursowa2\GraphTest\GraphTest\obj\Debug\GraphTest.csprojResolveAssemblyReference.cache
+C:\ivan\semest3\Algoritmi\Kursowa2\GraphTest\GraphTest\obj\Debug\GraphTest.Properties.Resources.resources
+C:\ivan\semest3\Algoritmi\Kursowa2\GraphTest\GraphTest\obj\Debug\GraphTest.csproj.GenerateResource.Cache
+C:\ivan\semest3\Algoritmi\Kursowa2\GraphTest\GraphTest\obj\Debug\GraphTest.exe
+C:\ivan\semest3\Algoritmi\Kursowa2\GraphTest\GraphTest\obj\Debug\GraphTest.pdb
+C:\ivan\semest3\Algoritmi\Kursowa2\GraphTest\GraphTest\obj\Debug\GraphTest.Form1.resources
+F:\flashka\semest3\Algoritmi\Proekt\SDA_Tema9_4\SDA_Tema9_4\GraphTest\bin\Debug\GraphTest.exe.config
+F:\flashka\semest3\Algoritmi\Proekt\SDA_Tema9_4\SDA_Tema9_4\GraphTest\obj\Debug\GraphTest.exe
+F:\flashka\semest3\Algoritmi\Proekt\SDA_Tema9_4\SDA_Tema9_4\GraphTest\obj\Debug\GraphTest.pdb
